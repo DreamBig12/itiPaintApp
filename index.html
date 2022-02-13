@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab-2.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="options" id="options">
+            <button id="fill">Fill Style</button>
+            <button id="changeFill">Change</button>
+            <input type="color" id="fill-color" style="margin-bottom: 0.5rem;">
+            <button id="stroke">Strock Style</button>
+            <input id="stroke" name='stroke' type="color">
+        </div>
+
+        <div class="art">
+            <div class="btns">
+                <button id="draw">Hand Drawing</button>
+                <button id="line">Line</button>
+                <button id="rect">Rectangel</button>
+                <button id="circ">Circle</button>
+                <button id="eras">Eraser</button>
+            </div>
+            <canvas id="canvas" width="700" height="500" style="border: 2px solid lightblue"></canvas>
+
+        </div>
+    </div>
+    <script src="paint.js"></script>
+</body>
+
+</html>
